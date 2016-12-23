@@ -62,10 +62,10 @@ def setup_package():
     extras_reqs = reqs
 
     setup(
-        name='PySAL',
+        name='pysal_core',
         version=VERSION,
-        description="A library of spatial analysis functions.",
-        long_description=long_description,
+        description="PySAL core package. A base package on which PySAL projects rely",
+        long_description="There is no reason to install this on its own.""",
         maintainer="PySAL Developers",
         maintainer_email='pysal-dev@googlegroups.com',
         url='http://pysal.org',
